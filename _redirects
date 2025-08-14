@@ -1,0 +1,6 @@
+# Redirect www to non-www
+https://www.elixira.tech/* https://elixira.tech/:splat 301!
+
+# Redirect http to https
+http://elixira.tech/* https://elixira.tech/:splat 301!
+http://www.elixira.tech/* https://elixira.tech/:splat 301!

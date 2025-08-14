@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden !important;
+    font-size: 16px;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 15px !important;
+    height: auto !important;
+  }
+
+  .logo {
+    margin-left: 0 !important;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .logo img {
+    width: 120px !important;
+    height: auto !important;
+    top: auto !important;
+    transform: none !important;
+  }
+
+  .nav-container {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-end !important;
+    gap: 10px !important;
+    margin-left: 15px !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+  }
+
+  .nav-button,
+  .dropdown > .dropbtn {
+    padding: 6px 10px !important;
+    font-size: 14px !important;
+    height: auto !important;
+    min-width: max-content !important;
+  }
+
+  .dropdown-content {
+    position: absolute !important;
+    background-color: rgba(255,255,255,0.95) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+    z-index: 1000 !important;
+    min-width: 120px !important;
+  }
+
+  .dropdown-content a {
+    padding: 8px 12px !important;
+    font-size: 14px !important;
+  }
+
+  /* CONTENT exakt som desktop men skalat */
+  .content {
+    padding: 520px 10px 60px 10px !important;
+    max-width: 820px !important;
+    text-align: center !important;
+  }
+
+  h1, h2, h3 {
+    font-size: 24px !important;
+    text-align: center !important;
+  }
+
+  p {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    text-align: center !important;
+  }
+
+  .button,
+  .contact-button {
+    padding: 8px 16px !important;
+    font-size: 12px !important;
+  }
+
+  .tess-image {
+    width: 60px !important;
+    bottom: 15px !important;
+    right: 15px !important;
+  }
+
+  .tess-label {
+    font-size: 11px !important;
+    bottom: 80px !important;
+    right: 15px !important;
+  }
+}
