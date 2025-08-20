@@ -7,7 +7,6 @@
 
   <!-- canonical to root for brand-strength -->
   <link rel="canonical" href="https://elixira.tech/" />
-  <link rel="license" href="https://elixira.tech/license.html" />
 
   <link rel="stylesheet" href="mobile.css?v=1" />
   <meta name="google-site-verification" content="o-hNIrfbamn98yMUitqnoV_NX69pT1qCrNj3gO371gk" />
@@ -41,7 +40,7 @@
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" />
 
-  <!-- ImageObject: hero background image WITH licensing metadata -->
+  <!-- ImageObject: hero background image -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -54,13 +53,11 @@
     "caption": "Elixira – AI-guided nanobot platform for lifelong cancer prevention",
     "representativeOfPage": true,
     "creditText": "Elixira",
-    "copyrightNotice": "© 2025 Elixira",
-    "license": "https://elixira.tech/license.html",
-    "acquireLicensePage": "https://elixira.tech/contact.html"
+    "copyrightNotice": "© 2025 Elixira"
   }
   </script>
 
-  <!-- ImageObject: Tess portrait WITH licensing metadata -->
+  <!-- ImageObject: Tess portrait -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -72,9 +69,7 @@
     "url": "https://elixira.tech/",
     "caption": "Tess Fries — Founder & Inventor of Elixira",
     "creditText": "Elixira",
-    "copyrightNotice": "© 2025 Elixira",
-    "license": "https://elixira.tech/license.html",
-    "acquireLicensePage": "https://elixira.tech/contact.html"
+    "copyrightNotice": "© 2025 Elixira"
   }
   </script>
 
@@ -165,7 +160,6 @@
       overflow: hidden;
     }
 
-    /* Behåller din befintliga CSS-bakgrund (oförändrad) */
     body::before {
       content: "";
       position: fixed;
@@ -328,7 +322,6 @@
   <script>
     window.addEventListener('load', () => {
       document.body.classList.add('loaded');
-      // fadar in den riktiga <img>-bakgrunden (indexerbar)
       const bg = document.getElementById('hero-bg');
       if (bg) bg.style.opacity = '1';
     });
